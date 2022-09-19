@@ -1,6 +1,6 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
-let winScore = 500
+let winScore = 50
 async function handler(m) {
     this.game = this.game ? this.game : {}
     let id = 'family100_' + m.chat
@@ -30,5 +30,6 @@ Terdapat *${json.jawaban.length}* jawaban${json.jawaban.find(v => v.includes(' '
 handler.help = ['family100']
 handler.tags = ['game']
 handler.command = /^family100$/i
+handler.limit = 2
 
 module.exports = handler
