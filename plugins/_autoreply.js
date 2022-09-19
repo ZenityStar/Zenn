@@ -25,10 +25,9 @@ handler.all = async function (m) {
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.sendButton(m.chat, `┌「 *Undang Bot ke Grup* 」
-├ 7 Hari / Rp 5,000
-├ 30 Hari / Rp 15,000
+├ 𝐇𝐮𝐛𝐮𝐧𝐠𝐢 𝐎𝐰𝐧𝐧𝐫
 └────
-`.trim(), wm, 'Pemilik Bot', '.owner', m)
+`.trim(), wm, '𝐂𝐫𝐞𝐚𝐭𝐨𝐫', '.owner', m)
 await this.reply('62895604670507-1632717792@g.us', `Ada Yang Mau Nyulik nih :v \n\ndari: @${m.sender.split("@")[0]} \n\npesan: ${m.text}`, m, { mentions: [m.sender] })
     }
 
