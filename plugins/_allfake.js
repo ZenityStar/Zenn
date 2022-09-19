@@ -12,7 +12,7 @@ handler.all = async function (m) {
         const u = await conn.clockString(_uptime)
         global.run = '𝐀𝐤𝐭𝐢𝐟 𝐒𝐞𝐥𝐚𝐦𝐚' + ' ' + u
         global.ucapan = ucapan()
-        global.col = 'https://telegra.ph/file/5ecadedfb003151914629.jpg'
+        global.col = 'https://telegra.ph/file/a3bab77bf2b17d1ce5711.jpg'
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
 		global.users = db.data.users[m.sender]
 		global.chats = db.data.chats[m.chat]
@@ -117,7 +117,7 @@ key: {
 		"groupInviteMessage": {
 			"groupJid": "6282331033919-1625305606@g.us",
 			"inviteCode": "null",
-			"groupName": "☬𝚁𝚊𝚡𝚌𝚎𝚄1�71ￄ1�77 ༼༽𝚡 𝚎𝚟𝚒𝚕 𝐎𝔣ᶄ1�71ￄ1�77 ◄1�71ￄ1�77", 
+			"groupName": "𝐙𝐞𝐧𝐢𝐭𝐲 𝐁𝐨𝐭", 
             "caption": wm, 
             'jpegThumbnail': fs.readFileSync('./src/logo.jpg')
 		}
