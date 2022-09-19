@@ -7,6 +7,4 @@ let handler = async (m, { conn }) => {
 }
 handler.command = /^teki$/i
 
-handler.limit = 1
-
 module.exports = handler
