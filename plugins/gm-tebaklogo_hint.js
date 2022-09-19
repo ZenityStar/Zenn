@@ -7,6 +7,4 @@ let handler = async (m, { conn }) => {
 }
 handler.command = /^oncs$/i
 
-handler.limit = true
-
 module.exports = handler
