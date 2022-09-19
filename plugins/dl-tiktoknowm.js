@@ -18,7 +18,7 @@ await conn.reply(m.chat, `Downloading media from Tiktoknowm`, 0, {
      }}
   })
 let txt = `🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}` 
-    await conn.send2ButtonVid(m.chat, `https://api.lolhuman.xyz/api/tiktok?apikey=7facd6f11077ee4daecd55d5&url=${args[0]}` , txt, wm, `Okey`, `Okey ${args[0]}`, `Menu`, `.menu ${args[0]}`, m, { contextInfo: {
+    await conn.send2ButtonVid(m.chat, `https://api.lolhuman.xyz/api/tiktok?apikey=7b6cb14ae40159b8af0124f2&url=${args[0]}` , txt, wm, `Okey`, `Okey ${args[0]}`, `Menu`, `.menu ${args[0]}`, m, { contextInfo: {
     externalAdReply :{
     showAdAttribution: true,
     title: run,
