@@ -1,7 +1,7 @@
 const fs = require('fs')
 const fetch = require('node-fetch')
 const timeout = 120000
-const poin = 500
+const poin = 100
 let handler = async (m, { conn, usedPrefix }) => {
     conn.susunkata = conn.susunkata ? conn.susunkata : {}
     let id = m.chat
@@ -34,5 +34,5 @@ Poin: *${poin} XP*
 handler.help = ['susunkata']
 handler.tags = ['game']
 handler.command = /^susunkata/i
-
+handler.limit = true
 module.exports = handler
