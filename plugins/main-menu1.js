@@ -3,13 +3,13 @@ let moment = require('moment-timezone')
 let time = moment.tz('Asia/Jakarta').format("HH:mm:ss")
 let date = moment.tz('Asia/Jakarta').format("dddd, Do MMMM, YYYY")
 
-conn.sendButtonDoc(m.chat, 'Halo, Saya ImanBot, Saya diciptakan Oleh Seseorang Manusia yang bernama Iman, Tujuan bot ini dibuat adalah sekedar hiburan dan menambah pengetahuan 😇\n\nɴᴏᴛᴇ: ʜᴀʀᴀᴘ ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ꜱᴇᴄᴀʀᴀ ʙɪᴊᴀᴋ ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴅɪꜱᴘᴀᴍ', data.namabot, 'ʟɪꜱᴛᴍᴇɴᴜ', '.m', fake, { contextInfo: {
+conn.sendButtonDoc(m.chat, 'Halo, Saya ImanBot, Saya diciptakan Oleh Seseorang Manusia yang bernama Zenity, Tujuan bot ini dibuat adalah sekedar hiburan dan menambah pengetahuan :D\n\n𝑵𝒐𝒕𝒆: 𝑮𝒖𝒏𝒂𝒌𝒂𝒏 𝒃𝒐𝒕 𝒅𝒆𝒏𝒈𝒂𝒏 𝒃𝒂𝒊𝒌 𝒅𝒂𝒏 𝒃𝒊𝒋𝒂𝒌 𝒂𝒈𝒂𝒓 𝒕𝒊𝒅𝒂𝒌 𝒕𝒆𝒓𝒃𝒂𝒏𝒏𝒆𝒅', data.namabot, '𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖', '.m', fake, { contextInfo: {
 externalAdReply :{
     showAdAttribution: true,
     mediaUrl: data.sc,
     mediaType: 2,
     sourceUrl: data.sc,
-    title: 'Jangan Dispam Ya Kak',
+    title: '𝑱𝒂𝒏𝒈𝒂𝒏 𝒅𝒊 𝒔𝒑𝒂𝒎 𝒚𝒂 𝒌𝒂𝒌',
     body: wm,
     thumbnail: await(await fetch(img)).buffer(),
 }}})
