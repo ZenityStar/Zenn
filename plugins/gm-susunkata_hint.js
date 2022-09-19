@@ -9,6 +9,4 @@ let handler = async (m, { conn }) => {
 }
 handler.command = /^suka$/i
 
-handler.limit = 1
-
 module.exports = handler
