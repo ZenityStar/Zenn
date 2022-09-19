@@ -29,5 +29,6 @@ Bonus: ${poin} XP
 handler.help = ['logoquiz']
 handler.tags = ['game']
 handler.command = /^(logoquiz|tebaklogo)$/i
+handler.limit = true
 
 module.exports = handler
