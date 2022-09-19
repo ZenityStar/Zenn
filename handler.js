@@ -622,9 +622,9 @@ module.exports = {
                                 mediaUrl: data.sc,
                                 mediaType: 2,
                                 sourceUrl: data.sc,
-                                body: 'Join Kegc Saya Kack',
+                                body: '𝐙𝐞𝐧𝐧 𝐁𝐨𝐭 𝐁𝐲 𝐙𝐞𝐧𝐧',
                                 thumbnail: await(await fetch (img)).buffer(),
-                                title: action === 'add' ? 'Semoga Betah Yah Kak🤗' : 'Yah Kok Keluar Sih😩',
+                                title: action === 'add' ? '𝐒𝐞𝐦𝐨𝐠𝐚 𝐁𝐞𝐭𝐚𝐡 𝐲𝐚 𝐤𝐚𝐤 𝐝𝐢 𝐠𝐜 𝐢𝐧𝐢' : '𝐘𝐚𝐡𝐡 𝐊𝐞𝐥𝐮𝐚𝐫',
                                 }}})
                                 }
                     }
@@ -721,7 +721,7 @@ Untuk mematikan fitur ini, ketik
     mediaType: 2,
     description: '', 
     title: 'Hay Kak',
-    body: 'Join Gc Bot Kak',
+    body: '𝐙𝐞𝐧𝐧𝐁𝐨𝐭 𝐁𝐲 𝐙𝐞𝐧𝐧',
     thumbnail: await(await fetch(img)).buffer(),
     sourceUrl: data.sc
      }}
