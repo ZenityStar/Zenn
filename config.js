@@ -30,7 +30,7 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 global.packname = ''
-global.author = 'ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ\n  ⟩  𝒁𝒆𝒏𝒊𝒕𝒔𝒖 𝑩𝒐𝒕  ⟨\nₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ'
+global.author = 'ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ\n   ⟩  ᘔᵉⁿⁿ ᗷᵒᵗ  ⟨\nₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ'
 global.wm = data.namabot + ' ' + data.owner
 
 global.multiplier = 100 // The higher, The harder levelup
