@@ -3,6 +3,7 @@ let handler  = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = ['bucin']
 handler.tags = ['quotes']
+handler.limit = true
 handler.command = /^(bucin)$/i
 
 module.exports = handler
