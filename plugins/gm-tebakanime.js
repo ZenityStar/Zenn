@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let timeout = 120000
-let poin = 500
+let poin = 100
 let handler = async (m, { conn, usedPrefix, command }) => {
     conn.tebakanime = conn.tebakanime ? conn.tebakanime : {}
     let id = m.chat
@@ -28,5 +28,5 @@ Bonus: ${poin} XP
 handler.help = ['tebakanime']
 handler.tags = ['game']
 handler.command = /^tebakanime$/i
-
+handler.limit = true
 module.exports = handler
