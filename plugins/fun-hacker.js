@@ -5,6 +5,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['hacker']
 handler.tags = ['quotes']
 handler.command = /^(heker|hacker|hekel)$/i
+handler.limit = true
 module.exports = handler
 
 function pickRandom(list) {
